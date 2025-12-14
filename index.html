@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精選遊戲連結</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        .game-card {
+            transition: all 0.3s ease;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center p-4">
+
+    <div class="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden">
+        
+        <!-- Header -->
+        <div class="bg-indigo-600 p-6 text-center">
+            <h1 class="text-2xl font-bold text-white tracking-wide">遊戲傳送門</h1>
+            <p class="text-indigo-200 mt-2 text-sm">點擊下方按鈕開始遊玩</p>
+        </div>
+
+        <!-- Links Container -->
+        <div class="p-6 space-y-4">
+            
+            <!-- Link 1: Dobble -->
+            <a href="https://mattsue.my.canva.site/dobble" target="_blank" class="game-card block group">
+                <div class="flex items-center p-4 border-2 border-indigo-50 rounded-xl hover:border-indigo-500 hover:bg-indigo-50 transition-colors">
+                    <div class="flex-shrink-0 h-12 w-12 bg-indigo-100 rounded-full flex items-center justify-center group-hover:bg-indigo-500 transition-colors">
+                        <!-- Icon: Shapes/Card -->
+                        <svg class="w-6 h-6 text-indigo-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-lg font-bold text-gray-800 group-hover:text-indigo-700">多寶遊戲 (Dobble)</h2>
+                        <p class="text-sm text-gray-500">考驗眼明手快的圖案配對</p>
+                    </div>
+                    <div class="ml-auto">
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Link 2: Reaction Game -->
+            <a href="https://mattsue1003.github.io/lightgame/" target="_blank" class="game-card block group">
+                <div class="flex items-center p-4 border-2 border-amber-50 rounded-xl hover:border-amber-500 hover:bg-amber-50 transition-colors">
+                    <div class="flex-shrink-0 h-12 w-12 bg-amber-100 rounded-full flex items-center justify-center group-hover:bg-amber-500 transition-colors">
+                        <!-- Icon: Lightning -->
+                        <svg class="w-6 h-6 text-amber-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-lg font-bold text-gray-800 group-hover:text-amber-700">反應力遊戲</h2>
+                        <p class="text-sm text-gray-500">挑戰你的極限反應速度</p>
+                    </div>
+                    <div class="ml-auto">
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Link 3: Arrow Game -->
+            <a href="https://mattsue1003.github.io/arrow/" target="_blank" class="game-card block group">
+                <div class="flex items-center p-4 border-2 border-emerald-50 rounded-xl hover:border-emerald-500 hover:bg-emerald-50 transition-colors">
+                    <div class="flex-shrink-0 h-12 w-12 bg-emerald-100 rounded-full flex items-center justify-center group-hover:bg-emerald-500 transition-colors">
+                        <!-- Icon: Arrow -->
+                        <svg class="w-6 h-6 text-emerald-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-lg font-bold text-gray-800 group-hover:text-emerald-700">箭頭遊戲</h2>
+                        <p class="text-sm text-gray-500">方向感與邏輯的試煉</p>
+                    </div>
+                    <div class="ml-auto">
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+        
+        <!-- Footer -->
+        <div class="bg-gray-50 p-4 text-center border-t border-gray-100">
+            <p class="text-xs text-gray-400">點擊卡片將開啟新分頁</p>
+        </div>
+    </div>
+
+</body>
+</html>
